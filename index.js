@@ -7,6 +7,9 @@ const schema = require("./models/schema");
 app.get("/", (req, res) => {
   res.send("We are ghnafsw");
 });
+app.get("/check", (req, res) => {
+  res.send("We are ghnafsw");
+});
 // var mongoose = require('mongoose');
 mongoose.connect(
   "mongodb+srv://amit:1234@cluster0-u2lit.mongodb.net/hrbot?retryWrites=true&w=majority",
