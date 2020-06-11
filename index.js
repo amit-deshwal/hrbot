@@ -214,7 +214,7 @@ app.post("/", express.json(), (req, res) => {
   agent.handleRequest(intentMap);
 });
 
-var server_port = process.env.OPENSHIFT_NODEJS_PORT || 5000;
+var server_port = 5000;
 app.listen(server_port, () => {
   console.log(`Server started at ${server_port}`);
 });
