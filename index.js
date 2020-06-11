@@ -195,7 +195,6 @@ app.post("/", express.json(), (req, res) => {
           console.log(err);
           return;
         }
-        // console.log(data);
       }
     );
     agent.add(`Address updated successfully.`);
